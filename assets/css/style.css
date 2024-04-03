@@ -29,6 +29,10 @@ header {
     height: 100vh;
 }
 
+#central {
+    display: flex;
+}
+
 #cabecalho {
     display: inline-block;
     width: 100vw;
@@ -77,4 +81,15 @@ li {
 
 #segunda {
     height: 100vh;
+}
+
+#wrapper-mulher {
+    max-height: 20%;
+    max-width: 20%;
+}
+
+#wrapper-mulher img {
+    margin-left:15rem;
+    max-height: 90%;
+    max-width: 90%;
 }
