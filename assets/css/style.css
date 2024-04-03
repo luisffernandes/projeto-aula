@@ -1,0 +1,27 @@
+
+
+
+* {
+    margin: 0;
+    list-style: none;
+}
+
+header {
+    height: 100vh;
+}
+
+#cabecalho {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    justify-content: left;
+}
+
+#navegacao {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
