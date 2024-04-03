@@ -33,7 +33,7 @@ header {
     height: 100vh;
 }
 
-#central {
+.central {
     display: flex;
 }
 
@@ -44,7 +44,7 @@ header {
     justify-content: left;
 }
 
-#textos {
+.textos {
     margin-left: 15rem;
     max-width: 60vh;
 }
@@ -97,3 +97,16 @@ li {
     max-height: 90%;
     max-width: 90%;
 }
+
+#wrapper-homens {
+    max-height: 40%;
+    max-width: 20%;
+}
+
+#wrapper-homens img{
+    margin-left: 5rem;
+    max-height: 90%; 
+    max-width: 90%;
+    overflow: hidden;
+}
+
