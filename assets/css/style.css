@@ -25,17 +25,22 @@ header {
 }
 
 #cabecalho {
-    display: flex;
+    display: inline-block;
     width: 100vw;
     height: 20vh;
     justify-content: left;
 }
 
 #navegacao {
+    margin-left: 60vw;
     display: flex;
     align-items: center;
 }
 
 ul {
     display: flex;
+}
+
+li {
+    margin-left: 40px;
 }
