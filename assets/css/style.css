@@ -36,8 +36,14 @@ header {
     justify-content: left;
 }
 
+#textos {
+    margin-left: 15rem;
+    max-width: 60vh;
+}
+
 #navegacao {
-    margin-left: 60vw;
+    margin-left: 50vw;
+    margin-top: -35px;
     display: flex;
     align-items: center;
 }
